@@ -1,1 +1,46 @@
 # ReviewMate
+
+## CheckList:
+- Define MVP features and project objectives
+- Gather GitHub fine-grained PAT and OpenAI API key
+- Decide on stack (FastAPI, PostgreSQL, React+Monaco)
+- Draw architecture and data flow diagrams
+- Design database schema
+- Specify REST API endpoints and contracts
+- Plan authentication flows (backend-to-GitHub, user-to-backend)
+- Define code review rules for AI prompt
+- Scaffold FastAPI project
+- Implement DB models and migrations
+- Set up .env for secrets
+- Test DB connection and migrations
+- Implement `/analyze_pr/` endpoint
+- Integrate GitHub API for PR metadata/diff extraction
+- Store PR and repo data in DB
+- Handle multiple PRs per user
+- Integrate OpenAI API for code analysis
+- Parse and store AI suggestions
+- Add customizable rules to AI prompt
+- Test end-to-end: PR submission → extraction → AI analysis → DB
+- Implement JWT/OAuth2 user authentication in backend
+- Protect API endpoints
+- Test with multiple users
+- Scaffold React app
+- Set up login/auth flow
+- Integrate Monaco Editor for code/diff display
+- Build dashboard: list PRs, show review history, display AI suggestions/issues
+- Connect frontend to backend API
+- Verify multiple PRs and user flows
+- Write unit tests for backend logic
+- Integration tests for API endpoints
+- Manual E2E testing with real PRs
+- Validate AI output (manual review; optional: “critic” LLM)
+- Security review: ensure tokens and data are protected
+- Write integration/user guides
+- Prepare demo scripts/screenshots
+- Final review, polish, and company submission
+- (Extra) Customizable rules and AI prompt tuning (UI/config)
+- (Extra) Security vulnerability scanning
+- (Extra) Automated documentation suggestions
+- (Extra) Analytics dashboard (historical trends, code quality metrics)
+- (Extra) Feedback loop for AI output improvement
+- (Extra) GitLab support
