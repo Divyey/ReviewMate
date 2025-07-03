@@ -1,4 +1,5 @@
-# ReviewMate
+# ReviewMate 1.0 (latest is 2.0)
+Link for 2.0: TBA
 
 ## CheckList:
 - Define MVP features and project objectives
